@@ -1,14 +1,14 @@
 import React from 'react';
 import './CSS/Main.css';
 
-const Main = ({From, Childeren}) => {
+const Main = ({Form, Childeren}) => {
     return (
         <div className="main">
              <div className="header">
                 오늘 할 일
              </div>
              <div className="input">
-                {From}
+                {Form}
              </div>
              <div className="text">
                 {Childeren}
